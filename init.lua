@@ -29,12 +29,13 @@ spec "user.ibl"
 spec "user.toggleterm"
 
 -- my plugin
-spec "user.diffview" 
+spec "user.diffview"
 spec "user.git-conflict" -- git 合并代码冲突
 spec "user.symbols-outline" -- 大纲
 spec "user.bookmarks" -- 书签
 spec "user.ufo" -- 代码折叠
 spec "user.vim-highlighter" -- 高亮单词
+spec "user.bufferline"
 
 
 require "user.lazy"

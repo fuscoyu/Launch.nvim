@@ -1,7 +1,7 @@
 local M = {
   "nvim-treesitter/nvim-treesitter",
   event = { "BufReadPost", "BufNewFile" },
-  build = ":TSUpdate",
+  -- build = ":TSUpdate",
 }
 
 function M.config()
@@ -9,7 +9,7 @@ function M.config()
     ensure_installed = { "lua", "markdown", "markdown_inline", "bash", "python", "go" },
     highlight = { enable = true },
     indent = { enable = true },
-    -- sync_install = true,
+    sync_install = false,
   }
 end
 

@@ -52,3 +52,8 @@ vim.cmd [[set iskeyword+=-]]
 vim.g.netrw_banner = 0
 vim.g.netrw_mouse = 2
 
+vim.opt.linebreak = true
+vim.opt.foldmethod = "manual"
+vim.opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+vim.opt.foldcolumn = '0'
+
