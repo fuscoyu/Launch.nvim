@@ -25,6 +25,16 @@ spec "user.autopairs"
 spec "user.neogit"
 spec "user.alpha"
 spec "user.project"
-spec "user.indentline"
+spec "user.ibl"
 spec "user.toggleterm"
+
+-- my plugin
+spec "user.diffview" 
+spec "user.git-conflict" -- git 合并代码冲突
+spec "user.symbols-outline" -- 大纲
+spec "user.bookmarks" -- 书签
+spec "user.ufo" -- 代码折叠
+spec "user.vim-highlighter" -- 高亮单词
+
+
 require "user.lazy"
