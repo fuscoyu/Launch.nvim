@@ -37,5 +37,9 @@ spec "user.vim-highlighter" -- 高亮单词
 spec "user.bufferline"
 spec "user.extras.ufo" -- 代码折叠
 
+spec "user.codeium"
+-- spec "user.extras.copilot"
+
+-- spec "user.copilot"
 
 require "user.lazy"
