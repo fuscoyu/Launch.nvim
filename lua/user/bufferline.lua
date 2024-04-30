@@ -1,4 +1,9 @@
-M = { "akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons" }
+M = {
+  "akinsho/bufferline.nvim",
+  version = "*",
+  dependencies = "nvim-tree/nvim-web-devicons",
+  event = "VeryLazy",
+}
 
 M.config = function()
   local status_ok, bufferline = pcall(require, "bufferline")

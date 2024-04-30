@@ -3,6 +3,7 @@ M = {
   dependencies = {
     "kevinhwang91/promise-async",
   },
+  event = "VeryLazy",
 }
 M.config = function()
   local status_ok, ufo = pcall(require, "ufo")

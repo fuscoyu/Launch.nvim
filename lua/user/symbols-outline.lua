@@ -1,5 +1,6 @@
 M = {
   "simrat39/symbols-outline.nvim",
+  event = "VeryLazy",
 }
 M.config = function()
   local status_ok, symbols_outline = pcall(require, "symbols-outline")

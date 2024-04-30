@@ -1,5 +1,6 @@
 M = {
   "akinsho/git-conflict.nvim",
+  event = "VeryLazy",
 }
 
 M.config = function()

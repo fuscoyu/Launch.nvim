@@ -1,5 +1,6 @@
 M = {
   "sindrets/diffview.nvim",
+  event = "VeryLazy",
 }
 
 M.config = function()

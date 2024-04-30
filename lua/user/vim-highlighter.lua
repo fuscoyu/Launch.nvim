@@ -1,5 +1,6 @@
 M = {
-  "azabiong/vim-highlighter"
+  "azabiong/vim-highlighter",
+  event = "VeryLazy",
 }
 M.config = function()
   vim.cmd [[
