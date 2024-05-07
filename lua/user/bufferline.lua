@@ -12,6 +12,19 @@ M.config = function()
   end
 
   bufferline.setup {
+    options = {
+      -- 使用 nvim 内置lsp
+      diagnostics = "nvim_lsp",
+      -- 左侧让出 nvim-tree 的位置
+      offsets = {
+        {
+          filetype = "NvimTree",
+          text = "File Explorer",
+          highlight = "Directory",
+          text_align = "left",
+        },
+      },
+    },
     -- options = {
     --   close_command = "Bdelete! %d", -- can be a string | function, see "Mouse actions"
     --   right_mouse_command = "Bdelete! %d", -- can be a string | function, see "Mouse actions"
