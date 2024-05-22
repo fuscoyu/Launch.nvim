@@ -6,7 +6,6 @@ local M = {
   event = "BufReadPost",
 }
 
-
 function M.config()
   local servers = {
     -- "lua_ls",  nvim v0.10升级报错
@@ -16,7 +15,8 @@ function M.config()
     "pyright",
     "bashls",
     "jsonls",
-    "gopls"
+    "gopls",
+    "yamlls",
   }
 
   require("mason").setup {

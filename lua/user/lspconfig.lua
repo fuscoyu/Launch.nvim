@@ -131,6 +131,13 @@ function M.config()
       require("neodev").setup {}
     end
 
+    local present, ufo = pcall(require, 'ufo')
+    if present then
+      opts.capabilities.textDocument.foldingRange = {
+        dynamicRegistration = false,
+        lineFoldingOnly = true,
+      }
+    end
     lspconfig[server].setup(opts)
     ::continue::
   end

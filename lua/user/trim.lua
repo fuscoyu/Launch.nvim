@@ -5,7 +5,7 @@ local M = {
 
 function M.config()
   require("trim").setup {
-        highlight = true,
+        highlight = false,
         trim_on_write = false,
     }
 end
