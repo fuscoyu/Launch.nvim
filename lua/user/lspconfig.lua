@@ -17,8 +17,8 @@ local function lsp_keymaps(bufnr)
   keymap(bufnr, "n", "gI", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
   keymap(bufnr, "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
   keymap(bufnr, "n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-  keymap(bufnr, "n", "]g", "<cmd>lua vim.diagnostic.goto_next()<CR>", opts)
-  keymap(bufnr, "n", "[g", "<cmd>lua vim.diagnostic.goto_prev()<CR>", opts)
+  keymap(bufnr, "n", "]x", "<cmd>lua vim.diagnostic.goto_next()<CR>", opts)
+  keymap(bufnr, "n", "[x", "<cmd>lua vim.diagnostic.goto_prev()<CR>", opts)
 end
 
 M.on_attach = function(client, bufnr)
@@ -127,10 +127,12 @@ function M.config()
     end
 
     if server == "lua_ls" then
+      goto continue
       require("neodev").setup {}
     end
 
     lspconfig[server].setup(opts)
+    ::continue::
   end
 end
 

@@ -3,12 +3,13 @@ local M = {
   dependencies = {
     "williamboman/mason.nvim",
   },
+  event = "VeryLazy",
 }
 
 
 function M.config()
   local servers = {
-    "lua_ls",
+    -- "lua_ls",  nvim v0.10升级报错
     "cssls",
     "html",
     "tsserver",

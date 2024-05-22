@@ -14,6 +14,7 @@ local M = {
     "rcasia/neotest-bash",
     "nvim-neotest/nvim-nio",
   },
+  event = "VeryLazy",
 }
 
 function M.config()

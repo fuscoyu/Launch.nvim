@@ -36,10 +36,9 @@ spec "user.bookmarks" -- 书签
 spec "user.vim-highlighter" -- 高亮单词
 spec "user.bufferline"
 spec "user.extras.ufo" -- 代码折叠
-
-spec "user.codeium"
--- spec "user.extras.copilot"
-
--- spec "user.copilot"
+spec "user.chatgpt"
+spec "user.extras.copilot"
 
 require "user.lazy"
+
+-- require "user.myplugin"
