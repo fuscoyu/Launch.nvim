@@ -65,3 +65,4 @@ keymap("v", "p", '"_dP', opts)
 -- aerial
 keymap("n", "<leader>a", ":SymbolsOutline<CR>", opts)
 
+-- copilot

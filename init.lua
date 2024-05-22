@@ -36,6 +36,8 @@ spec "user.bookmarks" -- 书签
 spec "user.vim-highlighter" -- 高亮单词
 spec "user.bufferline"
 spec "user.extras.ufo" -- 代码折叠
+spec "user.trim" -- 删除末尾空格
+-- AI
 spec "user.chatgpt"
 spec "user.extras.copilot"
 

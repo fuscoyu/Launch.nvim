@@ -3,7 +3,7 @@ local M = {
   dependencies = {
     "williamboman/mason.nvim",
   },
-  event = "VeryLazy",
+  event = "BufReadPost",
 }
 
 
