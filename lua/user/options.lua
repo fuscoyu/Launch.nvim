@@ -57,3 +57,12 @@ vim.opt.foldmethod = "manual"
 vim.opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
 vim.opt.foldcolumn = '0'
 
+vim.opt.list = true
+vim.opt.listchars = {
+  space = '·',       -- 空格显示为·
+  tab = '»·',        -- 制表符显示为 »·
+  trail = '·',       -- 尾随空格显示为 ·
+  extends = '>',     -- 超出文本宽度显示为 >
+  precedes = '<',    -- 超出文本宽度显示为 <
+}
+
