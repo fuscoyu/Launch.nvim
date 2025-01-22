@@ -5,8 +5,6 @@ keymap("n", "<Space>", "", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-keymap("n", "<C-i>", "<C-i>", opts)
-
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)

@@ -19,7 +19,7 @@ spec "user.comment"
 spec "user.lualine"
 spec "user.navic"
 spec "user.breadcrumbs"
-spec "user.harpoon"
+-- spec "user.harpoon"
 spec "user.neotest"
 spec "user.autopairs"
 spec "user.neogit"
@@ -37,9 +37,10 @@ spec "user.vim-highlighter" -- 高亮单词
 spec "user.bufferline"
 spec "user.extras.ufo" -- 代码折叠
 spec "user.trim" -- 删除末尾空格
+spec "user.vim-highlighter" -- 高亮字符串
 -- AI
-spec "user.chatgpt"
-spec "user.extras.copilot"
+-- spec "user.chatgpt"
+-- spec "user.extras.copilot"
 
 require "user.lazy"
 
